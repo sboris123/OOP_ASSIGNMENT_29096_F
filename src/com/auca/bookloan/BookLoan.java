@@ -1,5 +1,10 @@
+package com.auca.bookloan;
 
-
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
+import com.auca.librarybook.LibraryBook;
+import com.auca.student.Student;
 import java.time.LocalDate;
 public class BookLoan implements Identifiable,Registrable{
  private String id; private Student student; private LibraryBook book; private LocalDate borrowedDate; private LocalDate dueDate; private LocalDate returnedDate;

@@ -1,5 +1,9 @@
+package com.auca.assessment;
 
-
+import com.auca.enrollment.Enrollment;
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
 import java.time.LocalDate;
 public class Assessment implements Identifiable,Registrable{
  private String id; private Enrollment enrollment; private String assessmentType; private double maximumScore; private double obtainedScore; private LocalDate assessmentDate;

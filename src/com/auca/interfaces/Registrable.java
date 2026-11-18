@@ -1,4 +1,6 @@
+package com.auca.interfaces;
 
+import com.auca.exceptions.ValidationException;
 
 public interface Registrable {
     int MIN_NAME_LENGTH = 2;

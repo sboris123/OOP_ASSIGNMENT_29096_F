@@ -1,4 +1,9 @@
+package com.auca.department;
 
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
+import com.auca.teacher.Teacher;
 
 public class Department implements Identifiable, Registrable {
     private String id; private String name; private String code; private String location; private Teacher head; private boolean active;

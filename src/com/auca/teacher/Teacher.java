@@ -1,5 +1,8 @@
+package com.auca.teacher;
 
-
+import com.auca.abstracts.AcademicMember;
+import com.auca.department.Department;
+import com.auca.exceptions.ValidationException;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 

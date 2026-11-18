@@ -1,5 +1,8 @@
+package com.auca.abstracts;
 
-
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
 import java.time.LocalDate;
 
 public abstract class Person implements Identifiable, Registrable {

@@ -1,4 +1,10 @@
+package com.auca.enrollment;
 
+import com.auca.course.Course;
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
+import com.auca.student.Student;
 
 import java.time.LocalDate;
 public class Enrollment implements Identifiable,Registrable{

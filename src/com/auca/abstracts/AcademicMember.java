@@ -1,4 +1,7 @@
+package com.auca.abstracts;
 
+import com.auca.department.Department;
+import com.auca.exceptions.ValidationException;
 
 import java.time.LocalDate;
 

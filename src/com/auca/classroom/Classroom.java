@@ -1,4 +1,8 @@
+package com.auca.classroom;
 
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
 
 public class Classroom implements Identifiable,Registrable{
  private String id; private String roomNumber; private int capacity; private int floorNumber; private String building; private boolean active;

@@ -1,4 +1,10 @@
+package com.auca.course;
 
+import com.auca.department.Department;
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
+import com.auca.teacher.Teacher;
 
 public class Course implements Identifiable,Registrable{
  private String id; private String name; private String code; private int creditHours; private Department department; private Teacher teacher;

@@ -1,4 +1,8 @@
+package com.auca.librarybook;
 
+import com.auca.exceptions.ValidationException;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
 
 public class LibraryBook implements Identifiable,Registrable{
  private String id; private String title; private String isbn; private String author; private int totalCopies; private int availableCopies;

@@ -1,5 +1,8 @@
+package com.auca.student;
 
-
+import com.auca.abstracts.AcademicMember;
+import com.auca.department.Department;
+import com.auca.exceptions.ValidationException;
 import java.time.LocalDate;
 
 public class Student extends AcademicMember {

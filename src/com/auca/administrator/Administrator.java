@@ -1,5 +1,7 @@
+package com.auca.administrator;
 
-
+import com.auca.abstracts.Person;
+import com.auca.exceptions.ValidationException;
 import java.time.LocalDate;
 
 public class Administrator extends Person {

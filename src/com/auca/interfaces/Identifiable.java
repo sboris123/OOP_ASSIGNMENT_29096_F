@@ -1,3 +1,4 @@
+package com.auca.interfaces;
 
 public interface Identifiable {
     String ID_PREFIX = "AUCA";

@@ -1,5 +1,20 @@
+package com.auca;
 
-
+import com.auca.abstracts.Person;
+import com.auca.administrator.Administrator;
+import com.auca.assessment.Assessment;
+import com.auca.bookloan.BookLoan;
+import com.auca.classroom.Classroom;
+import com.auca.course.Course;
+import com.auca.department.Department;
+import com.auca.enrollment.Enrollment;
+import com.auca.exceptions.*;
+import com.auca.feepayment.FeePayment;
+import com.auca.interfaces.Identifiable;
+import com.auca.interfaces.Registrable;
+import com.auca.librarybook.LibraryBook;
+import com.auca.student.Student;
+import com.auca.teacher.Teacher;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
@@ -20,7 +35,7 @@ public class Main {
     private static final List<BookLoan> loans = new ArrayList<>();
 
     public static void main(String[] args) {
-        System.out.println("AUCA_ID School Management System");
+        System.out.println("AUCA School Management System");
         while (true) {
             printMenu();
             int choice = readInt("Select: ", 0, 19);
@@ -60,7 +75,8 @@ public class Main {
     }
 
     private static void printMenu() {
-        System.out.println("\n=== AUCA_ID Main Menu ===");
+        System.out.println("\n=== AUCA0
+         Main Menu ===");
         System.out.println("1 Register Department");
         System.out.println("2 Register Student");
         System.out.println("3 Register Teacher");
